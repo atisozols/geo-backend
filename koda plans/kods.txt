@@ -1,0 +1,4 @@
+{
+    rada jaut, jo atrodas kur jabut
+    nav tur kur jabut, suta tur kur jadodas
+}

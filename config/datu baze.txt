@@ -1,0 +1,29 @@
+{
+    "_id": "660ba0eb93f89017560362f6",
+    "ip": "66.001.885.01",
+    "visited": [
+        "te",
+        "tur",
+        "kautkur"
+    ],
+    "__v": 0,
+    "walkingPath": [
+        {
+        "_id": "66335ccca7d83c64f9e310a1",
+        "location": "pirmstagadne",
+        "answered": false,
+        "found": false
+        },
+        {
+        "_id": "66335ccca7d83c64f9e310a2",
+        "location": "tagadne",
+        "answered": false,
+        "found": false
+        },
+        {
+        "_id": "66335ccca7d83c64f9e310a3",
+        "location": "pectagadne",
+        "found": false
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+Server.js{
+    /start{
+        izvēlas ceļu, pa kuru doties
+        izveido lietotāju ar viņa ceļu un ip adresi
+    }
+    /:id{
+        iegūst interneta saites id (pie kura QR koda atrodas)
+        iegūst lietotāja Ip adresi
+    }
+    savienojas ar datubāzi
+}
+User.js{
+    izmanto Schema, lai izveidotu userschema objektu, 
+    kurš tiek eksportēts.
+    userschema{
+        ip
+        visited
+        walkingPath
+    }
+}
+db.js{
+    izmanto .env saglabāto MONGO_KEY, kas ir saglabājis ceļu
+    uz datubāzi, lai savienotu server.js funkcijas ar datubāzi.
+}

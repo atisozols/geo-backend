@@ -1,0 +1,39 @@
+Server.js{
+    /start{
+        pārbauda vai lietotājs jau nav saglabāts datubāzē{
+            pull no datubazes vai ir vel vietas palikusas{
+                izmet nakoso lokaciju, kur jāiet
+            }
+        }
+        izvēlas ceļu, pa kuru doties
+        izveido lietotāju ar viņa ceļu un ip adresi
+        izvelk walkingPath[0] no jaunizveidotā ceļa un sūta frontendam
+    }
+    /:id{
+        atrod lietotāju datubāzē
+        
+        pārbauda vai id ir walkingPath[1]{
+            atrod vai walkingPath[0][answered] == true{
+                parmaina walkingPath[1][found] == true,
+                izdzēš walkingPath[0]
+            }
+            }
+        else{
+            ja pašreizējā vieta ir walkingPath[0] elements{
+                sūta frontendam jautājumus??
+                (jāsaprot mana daļa no aplikācijas funkcionalitātes)
+            }
+            else{
+                tad izmet vietu uz walkingPath[0] elementu un sarāj lietotāju
+            }
+        }
+        
+
+    }
+}
+User.js{
+    Dependent on server.js
+}
+db.js{
+    Pašlaik tukšs
+}
